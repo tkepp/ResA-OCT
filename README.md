@@ -1,2 +1,2 @@
 # ResA-OCT
-mplicit Neural Representations for Resolution- Agnostic Retinal OCT Analysis
+Implicit Neural Representations for Resolution- Agnostic Retinal OCT Analysis
