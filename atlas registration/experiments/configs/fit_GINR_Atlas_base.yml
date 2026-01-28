@@ -1,0 +1,45 @@
+SETTINGS:
+  # General settings
+  PROJECT_NAME: 'GINR_Atlas_base'  # Name of the project / experiment
+  RESULT_DIR: ''                  # Directory to store results (must exist)
+  DATA_DIR: ''                    # Directory containing input data
+  FOLD: 2                         # Training / test fold index
+
+TRAINING:
+  # Training settings
+  LATENT_CODE:
+    SIZE: 128                     # Dimensionality of latent vector
+    INIT_STD: 0.01                # Initialization std for latent codes
+  LEARNING_RATE: 0.00001          # Learning rate for optimization
+  LR_SCHEDULER_GAMMA: 0.999       # Exponential decay factor for learning rate scheduler
+  TOTAL_EPOCHS: 2000              # Maximum number of training epochs
+  BATCH_SIZE: 1                   # Batch size for training
+
+TEST:
+  # Test settings
+  LEARNING_RATE: 0.00003          # Learning rate during test-time optimization
+  LR_SCHEDULER_GAMMA: 0.999       # Exponential decay factor for test LR scheduler
+  TOTAL_EPOCHS: 100               # Number of test-time optimization epochs
+  BATCH_SIZE: 1                   # Batch size during testing
+
+DISP_MODEL:
+  # Displacement field model (INR)
+  NUM_LAYERS: 4                   # Number of hidden layers
+  HIDDEN_SIZE: 128                # Width of hidden layers
+  IN_SIZE: 3                      # Input dimensionality (e.g. 3D coordinates)
+  OUT_SIZE: 3                     # Output dimensionality (3D displacement)
+  OMEGA: 30                       # Base frequency for sinusoidal activation
+
+ATLAS_MODEL:
+  # Atlas model (pretrained INR)
+  HIDDEN_SIZE: 256                # Width of hidden layers
+  IN_SIZE: 3                      # Input dimensionality (e.g. 3D coordinates)
+  OUT_SIZE: 3                     # Output dimensionality (3D atlas space)
+  OMEGA: 30                       # Base frequency for sinusoidal activation
+  PATH: ""                        # Path to pretrained atlas model
+
+DATA:
+  # Data sampling and patch configuration
+  SAMPLE_MODE: 'downsample'       # Sampling strategy (e.g. 'downsample')
+  SUBSMPL_FACTOR: 8               # Subsampling factor
+  PATCH_SIZE: [231, 62, 64]       # Spatial patch size (z, y, x)

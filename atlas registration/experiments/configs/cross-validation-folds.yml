@@ -1,0 +1,44 @@
+# Random cross validation fold of 50 patients. Patient sub027 was randomly chosen to be removed to achieve a nicer split.
+
+FOLD:
+  0:
+    TRAIN: ['sub006', 'sub033', 'sub003', 'sub015', 'sub041', 'sub007', 'sub002', 'sub013', 'sub036', 'sub050', 'sub014', 'sub005', 'sub046', 'sub030', 'sub024', 'sub029', 'sub039', 'sub049', 'sub011', 'sub009', 'sub034', 'sub001', 'sub053', 'sub031', 'sub038', 'sub010', 'sub037', 'sub022', 'sub044', 'sub045', 'sub016', 'sub043', 'sub035', 'sub023', 'sub047', 'sub042', 'sub017', 'sub054', 'sub028', 'sub051']
+    TEST: ['sub004', 'sub018', 'sub025', 'sub020', 'sub019', 'sub026', 'sub040', 'sub012', 'sub008', 'sub055']
+  1:
+    TRAIN: ['sub004', 'sub018', 'sub025', 'sub020', 'sub019', 'sub026', 'sub040', 'sub012', 'sub008', 'sub055', 'sub014', 'sub005', 'sub046', 'sub030', 'sub024', 'sub029', 'sub039', 'sub049', 'sub011', 'sub009', 'sub034', 'sub001', 'sub053', 'sub031', 'sub038', 'sub010', 'sub037', 'sub022', 'sub044', 'sub045', 'sub016', 'sub043', 'sub035', 'sub023', 'sub047', 'sub042', 'sub017', 'sub054', 'sub028', 'sub051']
+    TEST: ['sub006', 'sub033', 'sub003', 'sub015', 'sub041', 'sub007', 'sub002', 'sub013', 'sub036', 'sub050']
+  2:
+    TRAIN: ['sub004', 'sub018', 'sub025', 'sub020', 'sub019', 'sub026', 'sub040', 'sub012', 'sub008', 'sub055', 'sub006', 'sub033', 'sub003', 'sub015', 'sub041', 'sub007', 'sub002', 'sub013', 'sub036', 'sub050', 'sub034', 'sub001', 'sub053', 'sub031', 'sub038', 'sub010', 'sub037', 'sub022', 'sub044', 'sub045', 'sub016', 'sub043', 'sub035', 'sub023', 'sub047', 'sub042', 'sub017', 'sub054', 'sub028', 'sub051']
+    TEST: ['sub014', 'sub005', 'sub046', 'sub030', 'sub024', 'sub029', 'sub039', 'sub049', 'sub011', 'sub009']
+  3:
+    TRAIN: ['sub004', 'sub018', 'sub025', 'sub020', 'sub019', 'sub026', 'sub040', 'sub012', 'sub008', 'sub055', 'sub006', 'sub033', 'sub003', 'sub015', 'sub041', 'sub007', 'sub002', 'sub013', 'sub036', 'sub050', 'sub014', 'sub005', 'sub046', 'sub030', 'sub024', 'sub029', 'sub039', 'sub049', 'sub011', 'sub009', 'sub016', 'sub043', 'sub035', 'sub023', 'sub047', 'sub042', 'sub017', 'sub054', 'sub028', 'sub051']
+    TEST: ['sub034', 'sub001', 'sub053', 'sub031', 'sub038', 'sub010', 'sub037', 'sub022', 'sub044', 'sub045']
+  4:
+    TRAIN: ['sub004', 'sub018', 'sub025', 'sub020', 'sub019', 'sub026', 'sub040', 'sub012', 'sub008', 'sub055', 'sub006', 'sub033', 'sub003', 'sub015', 'sub041', 'sub007', 'sub002', 'sub013', 'sub036', 'sub050', 'sub014', 'sub005', 'sub046', 'sub030', 'sub024', 'sub029', 'sub039', 'sub049', 'sub011', 'sub009', 'sub034', 'sub001', 'sub053', 'sub031', 'sub038', 'sub010', 'sub037', 'sub022', 'sub044', 'sub045']
+    TEST: ['sub016', 'sub043', 'sub035', 'sub023', 'sub047', 'sub042', 'sub017', 'sub054', 'sub028', 'sub051']
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
