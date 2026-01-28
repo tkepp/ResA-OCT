@@ -154,7 +154,6 @@ def main(args):
     if args.torch_compile:
         backbone = torch.compile(backbone)
 
-    # todo: change segmentation head for contour data
     segmentation_head = SegmentationHead(config.MODEL.HIDDEN_SIZE, config.MODEL.NUM_CLASSES).cuda()
     reconstruction_head = ReconstructionHead(config.MODEL.HIDDEN_SIZE).cuda()
     if args.torch_compile:
